@@ -1,1 +1,1 @@
-web: gunicorn mhppip.wsgi --log-file -
+web: gunicorn mhp.wsgi --log-file -
