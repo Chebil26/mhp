@@ -116,7 +116,6 @@ STATIC_URL = 'static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-SETTINGS_DIR = None
 
 
 STATICFILES_STORAGE = 'whitenois.storage.CompressedManifestStaticFilesStorage'
